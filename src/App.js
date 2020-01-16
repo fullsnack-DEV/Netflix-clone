@@ -1,13 +1,14 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
 
-import "./App.css";
 import Main from "./pages/Homepage.component.jsx";
 
 function App() {
   return (
     <div>
-      <h1>Netflix Page</h1>
-      <Main />
+      <Switch>
+        <Route to="/" component={Main} />
+      </Switch>
     </div>
   );
 }
