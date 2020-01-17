@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-
+import "./css/App.css";
 import Main from "./pages/Homepage.component.jsx";
 
 function App() {
