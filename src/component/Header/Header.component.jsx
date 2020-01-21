@@ -36,10 +36,10 @@ export default Header;
 
 const Logo = styled.img`
   width: 10rem;
-  height: 3.5rem;
+  height: 3rem;
   position: absolute;
   top: 25%;
-  left: 50%;
+  left: 10%;
   transform: translate(-50%, -50%);
 `;
 
@@ -80,6 +80,7 @@ const HeaderComponent = styled.div`
     align-content: center;
     flex-direction: column;
     z-index: 1;
+    overflow:hidden;
   }
   //main-offer-btn
 
