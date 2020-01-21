@@ -5,6 +5,7 @@ import { NavLink, Link } from "react-router-dom";
 import styled from "styled-components";
 import { Icon } from "react-icons-kit";
 import { ic_keyboard_arrow_right } from "react-icons-kit/md/ic_keyboard_arrow_right";
+import { Button } from "../button/button";
 
 class Header extends Component {
   render() {
@@ -20,10 +21,10 @@ class Header extends Component {
         <div className="header-content">
           <Title>See What's next.</Title>
           <Subtitle>WATCH ANYWHERE , CANCEL ANYTIME.</Subtitle>
-          <Link className="main-offer-btn">
+          <Button className="main-offer-btn" primary>
             Try it Now
             <Icon icon={ic_keyboard_arrow_right} size={37} />
-          </Link>
+          </Button>
         </div>
       </HeaderComponent>
     );
@@ -69,7 +70,7 @@ const HeaderComponent = styled.div`
     height: 10rem;
     z-index: 1;
   }
-  //header-content
+  // header-content
   .header-content {
     width: 65%;
     position: relative;
@@ -80,29 +81,9 @@ const HeaderComponent = styled.div`
     align-content: center;
     flex-direction: column;
     z-index: 1;
-    overflow:hidden;
+    overflow: hidden;
   }
   //main-offer-btn
-
-  .main-offer-btn {
-    display: inline-block;
-    background: var(--main-red);
-    text-transform: upppercase;
-    border: none;
-    outline: none;
-    margin: 0 33%;
-    padding: 1.5rem;
-    border-radius: 0.1875rem;
-    font-size: 2rem;
-    text-align: center;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
-    transition: background 0.2s ease-in;
-    cursor: pointer;
-
-    &:hover {
-      background: var(--main-red-hover);
-    }
-  }
 
   Icon svg {
     vertical-align: bottom;

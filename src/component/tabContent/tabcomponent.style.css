@@ -1,7 +1,9 @@
 .TabContentContainer {
   background: var(--main-deep-dark);
 }
-
+.container {
+  margin: 0 10%;
+}
 img {
   width: 31.875rem;
 }
