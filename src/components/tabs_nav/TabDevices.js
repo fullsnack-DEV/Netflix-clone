@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-export default function Tabdevices() {
+export default function TabDevices() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      className="tab-icon-devices"
       viewBox="0 45 145 48"
       focusable="true"
-      class="tab-icon-devices"
     >
       <title />
       <g id="devices">

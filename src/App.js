@@ -1,13 +1,18 @@
-import React from "react";
-import { Switch, Route } from "react-router-dom";
-import "./css/App.css";
-import Main from "./pages/Homepage.component.jsx";
+import React from 'react';
+import './css/Main.css';
+import Main from './pages';
+import Login from './pages/Login';
+
+import { Switch, Route } from 'react-router-dom';
+import ChoosePlan from './pages/ChoosePlan';
 
 function App() {
   return (
     <div>
       <Switch>
-        <Route to="/" component={Main} />
+        <Route exact path="/" component={Main} />
+        <Route path="/login" component={Login} />
+        <Route path="/choose-plan" component={ChoosePlan} />
       </Switch>
     </div>
   );
