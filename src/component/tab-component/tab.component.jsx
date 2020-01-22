@@ -5,6 +5,7 @@ import Tabdevices from "../tabs_nav/tabdevices.component";
 import Tabprice from "../tabs_nav/tabprice.component";
 import TabCotentone from "../tabContent/TabContentone.component";
 import TabComponenttwo from "../tabContent/TabContenttwo.component";
+import TabComponentthre from "../tabContent/tabContentthree.component";
 import "../../css/tab-nav.css";
 
 class tab extends Component {
@@ -61,6 +62,9 @@ class tab extends Component {
           </TabPanel>
           <TabPanel>
             <TabComponenttwo />
+          </TabPanel>
+          <TabPanel>
+            <TabComponentthre />
           </TabPanel>
         </Tabs>
       </div>
