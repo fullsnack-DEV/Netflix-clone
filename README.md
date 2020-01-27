@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+ **https://netflic-clone.herokuapp.com/**
+
+
+
  ![](https://raw.githubusercontent.com/fullsnack-DEV/Netflix-clone/master/src/images/Demo-page.png)
 
 
