@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+ ![](https://raw.githubusercontent.com/fullsnack-DEV/Netflix-clone/master/src/images/Demo-page.png)
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
